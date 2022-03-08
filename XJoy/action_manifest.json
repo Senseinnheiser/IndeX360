@@ -17,11 +17,7 @@
       "skeleton": "/skeleton/hand/right",
       "type": "skeleton"
     },
-     {
-      "name": "/actions/main/in/ToggleActive",
-      "requirement": "optional",
-      "type": "boolean"
-    },
+     
     {
       "name": "/actions/main/in/ButtonA",
       "requirement": "mandatory",
@@ -150,6 +146,10 @@
 
   ],
    "default_bindings" : [
+      {
+        "binding_url": "actionsbindingoculus_touch.json",
+        "controller_type": "oculus_touch"
+      },
       {
         "binding_url": "actionsbindingknuckles.json",
         "controller_type": "knuckles"
